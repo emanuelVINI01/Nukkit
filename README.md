@@ -8,7 +8,7 @@ Este repositório é um **fork**. Ele é mantido na conta como referência técn
 
 ## Stack identificada
 
-Java, KSP, Maven, Redis, Transactions
+Java, Maven, Transactions
 
 ## Evidências observadas
 
