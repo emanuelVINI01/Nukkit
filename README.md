@@ -1,56 +1,16 @@
-![nukkit](https://github.com/Nukkit/Nukkit/blob/master/images/banner.png)
+# Nukkit
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
-[![Build Status](https://ci.potestas.xyz/job/NukkitX/job/master/badge/icon)](https://ci.potestas.xyz/job/NukkitX/job/master/)
-[![Discord](https://img.shields.io/discord/393465748535640064.svg)](https://discord.gg/5PzMkyK)
+Nukkit is a Nuclear-Powered Server Software For Minecraft: Pocket Edition
 
-ATTENTION
--------------
-**This repo is inactive. Try [NukkitX](https://github.com/NukkitX/Nukkit)**
+## Nota sobre este repositório
 
-Introduction
--------------
+Este repositório é um **fork**. Ele é mantido na conta como referência técnica, estudo ou base para contribuição, mas não representa necessariamente um produto autoral completo.
 
-Nukkit is nuclear-powered server software for Minecraft Bedrock Edition.
-It has a few key advantages over other server software:
+## Stack identificada
 
-* Written in Java, Nukkit is faster and more stable.
-* Having a friendly structure, it's easy to contribute to Nukkit's development and rewrite plugins from other platforms into Nukkit plugins.
+Java, KSP, Maven, Redis, Transactions
 
-Nukkit is **under improvement** yet, we welcome contributions. 
+## Evidências observadas
 
-Example servers running Nukkit
---------------------
-- **play.EaseCation.net**
-- **pe.GameTeam.cz**
-- **MultiLabs.net**
-
-Get Nukkit & Plugins
---------------------
-
-#### Recommended Sites
-
-* __[Official Site & Forums](https://potestas.xyz)__
-* __[Download](https://ci.potestas.xyz/job/NukkitX/job/master)__
-
-*Thank you for visiting our official sites. Our official websites are provided free of charge, and we do not like to place ads on the home page affecting your reading. If you like this project, please [donate to us](#). All the donations will only be used for Nukkit websites and services.*
-
-Build JAR file
--------------
-- `git submodule update --init`
-- `mvn clean package`
-
-Running
--------------
-Simply run `start.sh` or `start.cmd`, or execute `java -jar Nukkit.jar`.
-
-Plugin API
--------------
-#### **Example Plugin**
-Example Plugin which shows the API of Nukkit.
-
-* __[Example Plugin](http://github.com/Nukkit/ExamplePlugin)__
-
-Contributing
-------------
-Please read the [CONTRIBUTING](.github/CONTRIBUTING.md) guide before submitting any issue. Issues with insufficient information or in the wrong format will be closed and will not be reviewed.
+- pom.xml identificado.
+- diretório `src/` concentra a implementação principal.
